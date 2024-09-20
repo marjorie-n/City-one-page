@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Bienvenue à Toulon</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
 </head>
 <body>
-  
+  <header id="top">
+    <nav>
+      <ul>
+        <li><a href="#presentation">Ville</a></li>
+        <li><a href="#attractions">À faire</a></li>
+        <li><a href="#evenements">Événements</a></li>
+        <li><a href="#logement">Logement</a></li>
+        <li><a href="#restaurants">Manger & Sortir</a></li>
+        <li><a href="#carte">Carte</a></li>
+        <li><a href="#calendar">Calendrier</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Découvrez Toulon</h1>
+      <p>Entre mer et montagne, la capitale du Var vous attend !</p>
+    </div>
+  </header>
+
+  <main>
+    <section id="presentation">
+      <h2>Présentation de Toulon</h2>
+      <p>Ville portuaire baignée de soleil...</p>
+    </section>
+
+    <section id="attractions">
+      <h2>Choses à faire</h2>
+      <div class="attraction-cards">
+        <!-- Cartes avec des images et descriptions courtes -->
+      </div>
+    </section>
+
+    <section id="evenements">
+      <h2>Événements</h2>
+      <p>Découvrez les événements à venir à Toulon...</p>
+      <ul>
+        <li>Festival d’été</li>
+        <li>Marché de Noël</li>
+        <!-- Plus d’événements -->
+      </ul>
+    </section>
+
+    <section id="logement">
+      <h2>Où se loger</h2>
+      <p>Toulon offre un large éventail d’hébergements...</p>
+    </section>
+
+    <section id="restaurants">
+      <h2>Où manger & sortir</h2>
+      <p>Restaurants méditerranéens, bistros...</p>
+    </section>
+
+    <section id="carte">
+      <h2>Carte interactive</h2>
+      <div id="map"></div>
+    </section>
+
+    <section id="calendar">
+      <h2>Calendrier des événements</h2>
+      <div id="calendar-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Toulon Tourisme codé par Marjorie Ngoupende | <a href="#top">Retour en haut</a></p>
+  </footer>
 </body>
 </html>
